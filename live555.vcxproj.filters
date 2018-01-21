@@ -46,533 +46,532 @@
     <None Include=".\config.cygwin-for-vlc" />
     <None Include=".\config.qnx4" />
     <None Include=".\config.alpha" />
-    <None Include=".\live555.vcxproj.filters" />
-    <None Include=".\mediaServer\Makefile.tail" >
+    <None Include=".\mediaServer\Makefile.tail">
       <Filter>mediaServer</Filter>
     </None>
-    <None Include=".\mediaServer\version.hh" >
+    <None Include=".\mediaServer\version.hh">
       <Filter>mediaServer</Filter>
     </None>
-    <None Include=".\mediaServer\Makefile.head" >
+    <None Include=".\mediaServer\Makefile.head">
       <Filter>mediaServer</Filter>
     </None>
-    <None Include=".\mediaServer\DynamicRTSPServer.hh" >
+    <None Include=".\mediaServer\DynamicRTSPServer.hh">
       <Filter>mediaServer</Filter>
     </None>
     <None Include=".\config.solaris-32bit" />
     <None Include=".\config.bfin-uclinux" />
     <None Include=".\genMakefiles" />
-    <None Include=".\liveMedia\MP3ADUdescriptor.hh" >
+    <None Include=".\liveMedia\MP3ADUdescriptor.hh">
       <Filter>liveMedia</Filter>
     </None>
-    <None Include=".\liveMedia\MP3AudioMatroskaFileServerMediaSubsession.hh" >
+    <None Include=".\liveMedia\MP3AudioMatroskaFileServerMediaSubsession.hh">
       <Filter>liveMedia</Filter>
     </None>
-    <None Include=".\liveMedia\OggDemuxedTrack.hh" >
+    <None Include=".\liveMedia\OggDemuxedTrack.hh">
       <Filter>liveMedia</Filter>
     </None>
-    <None Include=".\liveMedia\MatroskaDemuxedTrack.hh" >
+    <None Include=".\liveMedia\MatroskaDemuxedTrack.hh">
       <Filter>liveMedia</Filter>
     </None>
-    <None Include=".\liveMedia\MP3Internals.hh" >
+    <None Include=".\liveMedia\MP3Internals.hh">
       <Filter>liveMedia</Filter>
     </None>
-    <None Include=".\liveMedia\Makefile.tail" >
+    <None Include=".\liveMedia\Makefile.tail">
       <Filter>liveMedia</Filter>
     </None>
-    <None Include=".\liveMedia\MatroskaFileServerMediaSubsession.hh" >
+    <None Include=".\liveMedia\MatroskaFileServerMediaSubsession.hh">
       <Filter>liveMedia</Filter>
     </None>
-    <None Include=".\liveMedia\OggFileServerMediaSubsession.hh" >
+    <None Include=".\liveMedia\OggFileServerMediaSubsession.hh">
       <Filter>liveMedia</Filter>
     </None>
-    <None Include=".\liveMedia\MPEGVideoStreamParser.hh" >
+    <None Include=".\liveMedia\MPEGVideoStreamParser.hh">
       <Filter>liveMedia</Filter>
     </None>
-    <None Include=".\liveMedia\include\MP3ADUinterleaving.hh" >
+    <None Include=".\liveMedia\include\MP3ADUinterleaving.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\FramedSource.hh" >
+    <None Include=".\liveMedia\include\FramedSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MPEG2TransportStreamTrickModeFilter.hh" >
+    <None Include=".\liveMedia\include\MPEG2TransportStreamTrickModeFilter.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MPEG2TransportStreamFromPESSource.hh" >
+    <None Include=".\liveMedia\include\MPEG2TransportStreamFromPESSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MPEG1or2FileServerDemux.hh" >
+    <None Include=".\liveMedia\include\MPEG1or2FileServerDemux.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\AMRAudioRTPSink.hh" >
+    <None Include=".\liveMedia\include\AMRAudioRTPSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\BasicUDPSink.hh" >
+    <None Include=".\liveMedia\include\BasicUDPSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MediaSource.hh" >
+    <None Include=".\liveMedia\include\MediaSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\liveMedia_version.hh" >
+    <None Include=".\liveMedia\include\liveMedia_version.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MPEG4ESVideoRTPSink.hh" >
+    <None Include=".\liveMedia\include\MPEG4ESVideoRTPSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\Locale.hh" >
+    <None Include=".\liveMedia\include\Locale.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\H265VideoRTPSource.hh" >
+    <None Include=".\liveMedia\include\H265VideoRTPSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MPEG1or2VideoStreamDiscreteFramer.hh" >
+    <None Include=".\liveMedia\include\MPEG1or2VideoStreamDiscreteFramer.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MPEG2TransportStreamAccumulator.hh" >
+    <None Include=".\liveMedia\include\MPEG2TransportStreamAccumulator.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MatroskaFile.hh" >
+    <None Include=".\liveMedia\include\MatroskaFile.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\H264or5VideoStreamDiscreteFramer.hh" >
+    <None Include=".\liveMedia\include\H264or5VideoStreamDiscreteFramer.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\TheoraVideoRTPSource.hh" >
+    <None Include=".\liveMedia\include\TheoraVideoRTPSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\H265VideoFileServerMediaSubsession.hh" >
+    <None Include=".\liveMedia\include\H265VideoFileServerMediaSubsession.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\AMRAudioSource.hh" >
+    <None Include=".\liveMedia\include\AMRAudioSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\ADTSAudioFileSource.hh" >
+    <None Include=".\liveMedia\include\ADTSAudioFileSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\H263plusVideoRTPSource.hh" >
+    <None Include=".\liveMedia\include\H263plusVideoRTPSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\AMRAudioRTPSource.hh" >
+    <None Include=".\liveMedia\include\AMRAudioRTPSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MediaTranscodingTable.hh" >
+    <None Include=".\liveMedia\include\MediaTranscodingTable.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\H264VideoStreamDiscreteFramer.hh" >
+    <None Include=".\liveMedia\include\H264VideoStreamDiscreteFramer.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\H264VideoFileSink.hh" >
+    <None Include=".\liveMedia\include\H264VideoFileSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\AMRAudioFileServerMediaSubsession.hh" >
+    <None Include=".\liveMedia\include\AMRAudioFileServerMediaSubsession.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\InputFile.hh" >
+    <None Include=".\liveMedia\include\InputFile.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MPEG4GenericRTPSource.hh" >
+    <None Include=".\liveMedia\include\MPEG4GenericRTPSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\RTSPRegisterSender.hh" >
+    <None Include=".\liveMedia\include\RTSPRegisterSender.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\BitVector.hh" >
+    <None Include=".\liveMedia\include\BitVector.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MPEG1or2DemuxedServerMediaSubsession.hh" >
+    <None Include=".\liveMedia\include\MPEG1or2DemuxedServerMediaSubsession.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\QuickTimeFileSink.hh" >
+    <None Include=".\liveMedia\include\QuickTimeFileSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\H265VideoFileSink.hh" >
+    <None Include=".\liveMedia\include\H265VideoFileSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\OggFileServerDemux.hh" >
+    <None Include=".\liveMedia\include\OggFileServerDemux.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\DVVideoRTPSink.hh" >
+    <None Include=".\liveMedia\include\DVVideoRTPSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\TCPStreamSink.hh" >
+    <None Include=".\liveMedia\include\TCPStreamSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\liveMedia.hh" >
+    <None Include=".\liveMedia\include\liveMedia.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\VideoRTPSink.hh" >
+    <None Include=".\liveMedia\include\VideoRTPSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MediaSession.hh" >
+    <None Include=".\liveMedia\include\MediaSession.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MPEG1or2VideoRTPSink.hh" >
+    <None Include=".\liveMedia\include\MPEG1or2VideoRTPSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MPEG1or2AudioRTPSink.hh" >
+    <None Include=".\liveMedia\include\MPEG1or2AudioRTPSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\DVVideoStreamFramer.hh" >
+    <None Include=".\liveMedia\include\DVVideoStreamFramer.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\T140TextRTPSink.hh" >
+    <None Include=".\liveMedia\include\T140TextRTPSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\RTPInterface.hh" >
+    <None Include=".\liveMedia\include\RTPInterface.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\AMRAudioFileSink.hh" >
+    <None Include=".\liveMedia\include\AMRAudioFileSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\RTSPCommon.hh" >
+    <None Include=".\liveMedia\include\RTSPCommon.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MPEG1or2AudioRTPSource.hh" >
+    <None Include=".\liveMedia\include\MPEG1or2AudioRTPSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\ServerMediaSession.hh" >
+    <None Include=".\liveMedia\include\ServerMediaSession.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\BasicUDPSource.hh" >
+    <None Include=".\liveMedia\include\BasicUDPSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MPEG2IndexFromTransportStream.hh" >
+    <None Include=".\liveMedia\include\MPEG2IndexFromTransportStream.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\FileServerMediaSubsession.hh" >
+    <None Include=".\liveMedia\include\FileServerMediaSubsession.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\ByteStreamMemoryBufferSource.hh" >
+    <None Include=".\liveMedia\include\ByteStreamMemoryBufferSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\OggFileSink.hh" >
+    <None Include=".\liveMedia\include\OggFileSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\SimpleRTPSink.hh" >
+    <None Include=".\liveMedia\include\SimpleRTPSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\H263plusVideoRTPSink.hh" >
+    <None Include=".\liveMedia\include\H263plusVideoRTPSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\TextRTPSink.hh" >
+    <None Include=".\liveMedia\include\TextRTPSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\QuickTimeGenericRTPSource.hh" >
+    <None Include=".\liveMedia\include\QuickTimeGenericRTPSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\AC3AudioFileServerMediaSubsession.hh" >
+    <None Include=".\liveMedia\include\AC3AudioFileServerMediaSubsession.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\JPEGVideoSource.hh" >
+    <None Include=".\liveMedia\include\JPEGVideoSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\VP9VideoRTPSource.hh" >
+    <None Include=".\liveMedia\include\VP9VideoRTPSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\RTSPServerSupportingHTTPStreaming.hh" >
+    <None Include=".\liveMedia\include\RTSPServerSupportingHTTPStreaming.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MPEG2TransportStreamFromESSource.hh" >
+    <None Include=".\liveMedia\include\MPEG2TransportStreamFromESSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MPEG4ESVideoRTPSource.hh" >
+    <None Include=".\liveMedia\include\MPEG4ESVideoRTPSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\QCELPAudioRTPSource.hh" >
+    <None Include=".\liveMedia\include\QCELPAudioRTPSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MPEG2TransportUDPServerMediaSubsession.hh" >
+    <None Include=".\liveMedia\include\MPEG2TransportUDPServerMediaSubsession.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\GSMAudioRTPSink.hh" >
+    <None Include=".\liveMedia\include\GSMAudioRTPSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\JPEGVideoRTPSink.hh" >
+    <None Include=".\liveMedia\include\JPEGVideoRTPSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\OggFile.hh" >
+    <None Include=".\liveMedia\include\OggFile.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MediaSink.hh" >
+    <None Include=".\liveMedia\include\MediaSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MPEG2TransportFileServerMediaSubsession.hh" >
+    <None Include=".\liveMedia\include\MPEG2TransportFileServerMediaSubsession.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\DeviceSource.hh" >
+    <None Include=".\liveMedia\include\DeviceSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\VP8VideoRTPSink.hh" >
+    <None Include=".\liveMedia\include\VP8VideoRTPSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\AC3AudioRTPSink.hh" >
+    <None Include=".\liveMedia\include\AC3AudioRTPSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MPEG1or2VideoStreamFramer.hh" >
+    <None Include=".\liveMedia\include\MPEG1or2VideoStreamFramer.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\OnDemandServerMediaSubsession.hh" >
+    <None Include=".\liveMedia\include\OnDemandServerMediaSubsession.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MP3ADU.hh" >
+    <None Include=".\liveMedia\include\MP3ADU.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\H261VideoRTPSource.hh" >
+    <None Include=".\liveMedia\include\H261VideoRTPSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MP3FileSource.hh" >
+    <None Include=".\liveMedia\include\MP3FileSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MPEG2TransportStreamMultiplexor.hh" >
+    <None Include=".\liveMedia\include\MPEG2TransportStreamMultiplexor.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MPEG1or2DemuxedElementaryStream.hh" >
+    <None Include=".\liveMedia\include\MPEG1or2DemuxedElementaryStream.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\GenericMediaServer.hh" >
+    <None Include=".\liveMedia\include\GenericMediaServer.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\RTSPClient.hh" >
+    <None Include=".\liveMedia\include\RTSPClient.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\AudioRTPSink.hh" >
+    <None Include=".\liveMedia\include\AudioRTPSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\AudioInputDevice.hh" >
+    <None Include=".\liveMedia\include\AudioInputDevice.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MultiFramedRTPSink.hh" >
+    <None Include=".\liveMedia\include\MultiFramedRTPSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\H264VideoFileServerMediaSubsession.hh" >
+    <None Include=".\liveMedia\include\H264VideoFileServerMediaSubsession.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MPEGVideoStreamFramer.hh" >
+    <None Include=".\liveMedia\include\MPEGVideoStreamFramer.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\SIPClient.hh" >
+    <None Include=".\liveMedia\include\SIPClient.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\AC3AudioRTPSource.hh" >
+    <None Include=".\liveMedia\include\AC3AudioRTPSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MP3ADURTPSink.hh" >
+    <None Include=".\liveMedia\include\MP3ADURTPSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\JPEGVideoRTPSource.hh" >
+    <None Include=".\liveMedia\include\JPEGVideoRTPSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MP3ADURTPSource.hh" >
+    <None Include=".\liveMedia\include\MP3ADURTPSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MPEG4GenericRTPSink.hh" >
+    <None Include=".\liveMedia\include\MPEG4GenericRTPSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\RTPSource.hh" >
+    <None Include=".\liveMedia\include\RTPSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\StreamReplicator.hh" >
+    <None Include=".\liveMedia\include\StreamReplicator.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\WAVAudioFileServerMediaSubsession.hh" >
+    <None Include=".\liveMedia\include\WAVAudioFileServerMediaSubsession.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\H263plusVideoFileServerMediaSubsession.hh" >
+    <None Include=".\liveMedia\include\H263plusVideoFileServerMediaSubsession.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\PassiveServerMediaSubsession.hh" >
+    <None Include=".\liveMedia\include\PassiveServerMediaSubsession.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\ADTSAudioFileServerMediaSubsession.hh" >
+    <None Include=".\liveMedia\include\ADTSAudioFileServerMediaSubsession.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MPEG1or2AudioStreamFramer.hh" >
+    <None Include=".\liveMedia\include\MPEG1or2AudioStreamFramer.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\ProxyServerMediaSession.hh.orig" >
+    <None Include=".\liveMedia\include\ProxyServerMediaSession.hh.orig">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\VorbisAudioRTPSource.hh" >
+    <None Include=".\liveMedia\include\VorbisAudioRTPSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\H264VideoStreamFramer.hh" >
+    <None Include=".\liveMedia\include\H264VideoStreamFramer.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\RTCP.hh" >
+    <None Include=".\liveMedia\include\RTCP.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\WAVAudioFileSource.hh" >
+    <None Include=".\liveMedia\include\WAVAudioFileSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\ProxyServerMediaSession.hh" >
+    <None Include=".\liveMedia\include\ProxyServerMediaSession.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\FramedFilter.hh" >
+    <None Include=".\liveMedia\include\FramedFilter.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MPEG1or2Demux.hh" >
+    <None Include=".\liveMedia\include\MPEG1or2Demux.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\FileSink.hh" >
+    <None Include=".\liveMedia\include\FileSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MP3Transcoder.hh" >
+    <None Include=".\liveMedia\include\MP3Transcoder.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\H264or5VideoRTPSink.hh" >
+    <None Include=".\liveMedia\include\H264or5VideoRTPSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MatroskaFileServerDemux.hh" >
+    <None Include=".\liveMedia\include\MatroskaFileServerDemux.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MP3AudioFileServerMediaSubsession.hh" >
+    <None Include=".\liveMedia\include\MP3AudioFileServerMediaSubsession.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\H265VideoStreamDiscreteFramer.hh" >
+    <None Include=".\liveMedia\include\H265VideoStreamDiscreteFramer.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\H265VideoRTPSink.hh" >
+    <None Include=".\liveMedia\include\H265VideoRTPSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\AVIFileSink.hh" >
+    <None Include=".\liveMedia\include\AVIFileSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\Media.hh" >
+    <None Include=".\liveMedia\include\Media.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\RTSPServer.hh" >
+    <None Include=".\liveMedia\include\RTSPServer.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\H265VideoStreamFramer.hh" >
+    <None Include=".\liveMedia\include\H265VideoStreamFramer.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MultiFramedRTPSource.hh" >
+    <None Include=".\liveMedia\include\MultiFramedRTPSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\VorbisAudioRTPSink.hh" >
+    <None Include=".\liveMedia\include\VorbisAudioRTPSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\DVVideoRTPSource.hh" >
+    <None Include=".\liveMedia\include\DVVideoRTPSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MPEG1or2VideoFileServerMediaSubsession.hh" >
+    <None Include=".\liveMedia\include\MPEG1or2VideoFileServerMediaSubsession.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MPEG2TransportStreamFramer.hh" >
+    <None Include=".\liveMedia\include\MPEG2TransportStreamFramer.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\uLawAudioFilter.hh" >
+    <None Include=".\liveMedia\include\uLawAudioFilter.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\AC3AudioStreamFramer.hh" >
+    <None Include=".\liveMedia\include\AC3AudioStreamFramer.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\ourMD5.hh" >
+    <None Include=".\liveMedia\include\ourMD5.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\OutputFile.hh" >
+    <None Include=".\liveMedia\include\OutputFile.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\VP8VideoRTPSource.hh" >
+    <None Include=".\liveMedia\include\VP8VideoRTPSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\DVVideoFileServerMediaSubsession.hh" >
+    <None Include=".\liveMedia\include\DVVideoFileServerMediaSubsession.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\FramedFileSource.hh" >
+    <None Include=".\liveMedia\include\FramedFileSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MPEG4VideoStreamDiscreteFramer.hh" >
+    <None Include=".\liveMedia\include\MPEG4VideoStreamDiscreteFramer.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\RTPSink.hh" >
+    <None Include=".\liveMedia\include\RTPSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MPEG4VideoStreamFramer.hh" >
+    <None Include=".\liveMedia\include\MPEG4VideoStreamFramer.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\H264VideoRTPSource.hh" >
+    <None Include=".\liveMedia\include\H264VideoRTPSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MPEG4LATMAudioRTPSource.hh" >
+    <None Include=".\liveMedia\include\MPEG4LATMAudioRTPSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\SimpleRTPSource.hh" >
+    <None Include=".\liveMedia\include\SimpleRTPSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\H263plusVideoStreamFramer.hh" >
+    <None Include=".\liveMedia\include\H263plusVideoStreamFramer.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MPEG1or2VideoRTPSource.hh" >
+    <None Include=".\liveMedia\include\MPEG1or2VideoRTPSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MPEG2TransportStreamIndexFile.hh" >
+    <None Include=".\liveMedia\include\MPEG2TransportStreamIndexFile.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MPEG4LATMAudioRTPSink.hh" >
+    <None Include=".\liveMedia\include\MPEG4LATMAudioRTPSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MPEG4VideoFileServerMediaSubsession.hh" >
+    <None Include=".\liveMedia\include\MPEG4VideoFileServerMediaSubsession.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\MP3ADUTranscoder.hh" >
+    <None Include=".\liveMedia\include\MP3ADUTranscoder.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\ByteStreamFileSource.hh" >
+    <None Include=".\liveMedia\include\ByteStreamFileSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\ByteStreamMultiFileSource.hh" >
+    <None Include=".\liveMedia\include\ByteStreamMultiFileSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\DigestAuthentication.hh" >
+    <None Include=".\liveMedia\include\DigestAuthentication.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\H264VideoRTPSink.hh" >
+    <None Include=".\liveMedia\include\H264VideoRTPSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\H264or5VideoFileSink.hh" >
+    <None Include=".\liveMedia\include\H264or5VideoFileSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\VP9VideoRTPSink.hh" >
+    <None Include=".\liveMedia\include\VP9VideoRTPSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\TheoraVideoRTPSink.hh" >
+    <None Include=".\liveMedia\include\TheoraVideoRTPSink.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\AMRAudioFileSource.hh" >
+    <None Include=".\liveMedia\include\AMRAudioFileSource.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\Base64.hh" >
+    <None Include=".\liveMedia\include\Base64.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\include\H264or5VideoStreamFramer.hh" >
+    <None Include=".\liveMedia\include\H264or5VideoStreamFramer.hh">
       <Filter>liveMedia\include</Filter>
     </None>
-    <None Include=".\liveMedia\stDjgzxL" >
+    <None Include=".\liveMedia\stDjgzxL">
       <Filter>liveMedia</Filter>
     </None>
-    <None Include=".\liveMedia\Makefile.head" >
+    <None Include=".\liveMedia\Makefile.head">
       <Filter>liveMedia</Filter>
     </None>
-    <None Include=".\liveMedia\OggFileParser.hh" >
+    <None Include=".\liveMedia\OggFileParser.hh">
       <Filter>liveMedia</Filter>
     </None>
-    <None Include=".\liveMedia\MP3InternalsHuffman.hh" >
+    <None Include=".\liveMedia\MP3InternalsHuffman.hh">
       <Filter>liveMedia</Filter>
     </None>
-    <None Include=".\liveMedia\EBMLNumber.hh" >
+    <None Include=".\liveMedia\EBMLNumber.hh">
       <Filter>liveMedia</Filter>
     </None>
-    <None Include=".\liveMedia\MatroskaFileParser.hh" >
+    <None Include=".\liveMedia\MatroskaFileParser.hh">
       <Filter>liveMedia</Filter>
     </None>
-    <None Include=".\liveMedia\H263plusVideoStreamParser.hh" >
+    <None Include=".\liveMedia\H263plusVideoStreamParser.hh">
       <Filter>liveMedia</Filter>
     </None>
-    <None Include=".\liveMedia\MP3StreamState.hh" >
+    <None Include=".\liveMedia\MP3StreamState.hh">
       <Filter>liveMedia</Filter>
     </None>
-    <None Include=".\liveMedia\StreamParser.hh" >
+    <None Include=".\liveMedia\StreamParser.hh">
       <Filter>liveMedia</Filter>
     </None>
     <None Include=".\config.bsplinux" />
@@ -583,25 +582,25 @@
     <None Include=".\fix-makefile" />
     <None Include=".\Makefile.tail" />
     <None Include=".\config.cygwin" />
-    <None Include=".\UsageEnvironment\Makefile.tail" >
+    <None Include=".\UsageEnvironment\Makefile.tail">
       <Filter>UsageEnvironment</Filter>
     </None>
-    <None Include=".\UsageEnvironment\include\UsageEnvironment.hh" >
+    <None Include=".\UsageEnvironment\include\UsageEnvironment.hh">
       <Filter>UsageEnvironment\include</Filter>
     </None>
-    <None Include=".\UsageEnvironment\include\Boolean.hh" >
+    <None Include=".\UsageEnvironment\include\Boolean.hh">
       <Filter>UsageEnvironment\include</Filter>
     </None>
-    <None Include=".\UsageEnvironment\include\strDup.hh" >
+    <None Include=".\UsageEnvironment\include\strDup.hh">
       <Filter>UsageEnvironment\include</Filter>
     </None>
-    <None Include=".\UsageEnvironment\include\HashTable.hh" >
+    <None Include=".\UsageEnvironment\include\HashTable.hh">
       <Filter>UsageEnvironment\include</Filter>
     </None>
-    <None Include=".\UsageEnvironment\include\UsageEnvironment_version.hh" >
+    <None Include=".\UsageEnvironment\include\UsageEnvironment_version.hh">
       <Filter>UsageEnvironment\include</Filter>
     </None>
-    <None Include=".\UsageEnvironment\Makefile.head" >
+    <None Include=".\UsageEnvironment\Makefile.head">
       <Filter>UsageEnvironment</Filter>
     </None>
     <None Include=".\win32config" />
@@ -613,85 +612,85 @@
     <None Include=".\config.linux-gdb" />
     <None Include=".\COPYING.LESSER" />
     <None Include=".\COPYING" />
-    <None Include=".\testProgs\testMP3.sdp" >
+    <None Include=".\testProgs\testMP3.sdp">
       <Filter>testProgs</Filter>
     </None>
-    <None Include=".\testProgs\testMPEG1or2Video.sdp" >
+    <None Include=".\testProgs\testMPEG1or2Video.sdp">
       <Filter>testProgs</Filter>
     </None>
-    <None Include=".\testProgs\testMP3-using-ADUs.sdp" >
+    <None Include=".\testProgs\testMP3-using-ADUs.sdp">
       <Filter>testProgs</Filter>
     </None>
-    <None Include=".\testProgs\Makefile.tail" >
+    <None Include=".\testProgs\Makefile.tail">
       <Filter>testProgs</Filter>
     </None>
-    <None Include=".\testProgs\Makefile.head" >
+    <None Include=".\testProgs\Makefile.head">
       <Filter>testProgs</Filter>
     </None>
-    <None Include=".\testProgs\playCommon.hh" >
+    <None Include=".\testProgs\playCommon.hh">
       <Filter>testProgs</Filter>
     </None>
-    <None Include=".\testProgs\testMPEG2Transport.sdp" >
+    <None Include=".\testProgs\testMPEG2Transport.sdp">
       <Filter>testProgs</Filter>
     </None>
-    <None Include=".\testProgs\testMPEG1or2AudioVideo.sdp" >
+    <None Include=".\testProgs\testMPEG1or2AudioVideo.sdp">
       <Filter>testProgs</Filter>
     </None>
-    <None Include=".\BasicUsageEnvironment\Makefile.tail" >
+    <None Include=".\BasicUsageEnvironment\Makefile.tail">
       <Filter>BasicUsageEnvironment</Filter>
     </None>
-    <None Include=".\BasicUsageEnvironment\include\BasicUsageEnvironment_version.hh" >
+    <None Include=".\BasicUsageEnvironment\include\BasicUsageEnvironment_version.hh">
       <Filter>BasicUsageEnvironment\include</Filter>
     </None>
-    <None Include=".\BasicUsageEnvironment\include\HandlerSet.hh" >
+    <None Include=".\BasicUsageEnvironment\include\HandlerSet.hh">
       <Filter>BasicUsageEnvironment\include</Filter>
     </None>
-    <None Include=".\BasicUsageEnvironment\include\DelayQueue.hh" >
+    <None Include=".\BasicUsageEnvironment\include\DelayQueue.hh">
       <Filter>BasicUsageEnvironment\include</Filter>
     </None>
-    <None Include=".\BasicUsageEnvironment\include\BasicUsageEnvironment0.hh" >
+    <None Include=".\BasicUsageEnvironment\include\BasicUsageEnvironment0.hh">
       <Filter>BasicUsageEnvironment\include</Filter>
     </None>
-    <None Include=".\BasicUsageEnvironment\include\BasicUsageEnvironment.hh" >
+    <None Include=".\BasicUsageEnvironment\include\BasicUsageEnvironment.hh">
       <Filter>BasicUsageEnvironment\include</Filter>
     </None>
-    <None Include=".\BasicUsageEnvironment\include\BasicHashTable.hh" >
+    <None Include=".\BasicUsageEnvironment\include\BasicHashTable.hh">
       <Filter>BasicUsageEnvironment\include</Filter>
     </None>
-    <None Include=".\BasicUsageEnvironment\Makefile.head" >
+    <None Include=".\BasicUsageEnvironment\Makefile.head">
       <Filter>BasicUsageEnvironment</Filter>
     </None>
     <None Include=".\config.openbsd" />
     <None Include=".\Makefile.head" />
     <None Include=".\config.uClinux" />
-    <None Include=".\groupsock\Makefile.tail" >
+    <None Include=".\groupsock\Makefile.tail">
       <Filter>groupsock</Filter>
     </None>
-    <None Include=".\groupsock\include\GroupEId.hh" >
+    <None Include=".\groupsock\include\GroupEId.hh">
       <Filter>groupsock\include</Filter>
     </None>
-    <None Include=".\groupsock\include\NetInterface.hh" >
+    <None Include=".\groupsock\include\NetInterface.hh">
       <Filter>groupsock\include</Filter>
     </None>
-    <None Include=".\groupsock\include\Groupsock.hh" >
+    <None Include=".\groupsock\include\Groupsock.hh">
       <Filter>groupsock\include</Filter>
     </None>
-    <None Include=".\groupsock\include\groupsock_version.hh" >
+    <None Include=".\groupsock\include\groupsock_version.hh">
       <Filter>groupsock\include</Filter>
     </None>
-    <None Include=".\groupsock\include\GroupsockHelper.hh" >
+    <None Include=".\groupsock\include\GroupsockHelper.hh">
       <Filter>groupsock\include</Filter>
     </None>
-    <None Include=".\groupsock\include\IOHandlers.hh" >
+    <None Include=".\groupsock\include\IOHandlers.hh">
       <Filter>groupsock\include</Filter>
     </None>
-    <None Include=".\groupsock\include\TunnelEncaps.hh" >
+    <None Include=".\groupsock\include\TunnelEncaps.hh">
       <Filter>groupsock\include</Filter>
     </None>
-    <None Include=".\groupsock\include\NetAddress.hh" >
+    <None Include=".\groupsock\include\NetAddress.hh">
       <Filter>groupsock\include</Filter>
     </None>
-    <None Include=".\groupsock\Makefile.head" >
+    <None Include=".\groupsock\Makefile.head">
       <Filter>groupsock</Filter>
     </None>
     <None Include=".\config.armeb-uclibc" />
@@ -705,25 +704,25 @@
     <None Include=".\config.solaris-64bit" />
     <None Include=".\config.armlinux" />
     <None Include=".\config.avr32-linux" />
-    <None Include=".\WindowsAudioInputDevice\WindowsAudioInputDevice_mixer.hh" >
+    <None Include=".\WindowsAudioInputDevice\WindowsAudioInputDevice_mixer.hh">
       <Filter>WindowsAudioInputDevice</Filter>
     </None>
-    <None Include=".\WindowsAudioInputDevice\WindowsAudioInputDevice.mak" >
+    <None Include=".\WindowsAudioInputDevice\WindowsAudioInputDevice.mak">
       <Filter>WindowsAudioInputDevice</Filter>
     </None>
-    <None Include=".\WindowsAudioInputDevice\WindowsAudioInputDevice_common.hh" >
+    <None Include=".\WindowsAudioInputDevice\WindowsAudioInputDevice_common.hh">
       <Filter>WindowsAudioInputDevice</Filter>
     </None>
-    <None Include=".\WindowsAudioInputDevice\WindowsAudioInputDevice_noMixer.hh" >
+    <None Include=".\WindowsAudioInputDevice\WindowsAudioInputDevice_noMixer.hh">
       <Filter>WindowsAudioInputDevice</Filter>
     </None>
     <None Include=".\config.macosx" />
     <None Include=".\config.iphone-simulator" />
     <None Include=".\config.linux" />
-    <None Include=".\proxyServer\Makefile.tail" >
+    <None Include=".\proxyServer\Makefile.tail">
       <Filter>proxyServer</Filter>
     </None>
-    <None Include=".\proxyServer\Makefile.head" >
+    <None Include=".\proxyServer\Makefile.head">
       <Filter>proxyServer</Filter>
     </None>
   </ItemGroup>

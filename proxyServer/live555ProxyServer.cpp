@@ -17,6 +17,7 @@ along with this library; if not, write to the Free Software Foundation, Inc.,
 // LIVE555 Proxy Server
 // main program
 
+
 #include "liveMedia.hh"
 #include "BasicUsageEnvironment.hh"
 
@@ -45,6 +46,7 @@ static RTSPServer* createRTSPServer(Port port) {
     }
 }
 
+
 void usage() {
     *env << "Usage: " << progName
         << " [-v|-V]"
@@ -52,14 +54,86 @@ void usage() {
         << " [-p <rtspServer-port>]"
         << " [-u <username> <password>]"
         << " [-R] [-U <username-for-REGISTER> <password-for-REGISTER>]"
+        << " [-f <back-end rtsp pairs file>]"
         << " <rtsp-url-1> ... <rtsp-url-n>\n";
     exit(1);
+}
+
+#include <set>
+#include <string>
+#include <fstream>
+#include <sstream>
+#include <vector>
+#include <iterator>
+
+struct stream_info {
+    std::string name;
+    std::string url;
+    std::string username;
+    std::string password;
+    stream_info(const std::string & str) {
+        *this = str;
+    }
+    bool operator < (const stream_info & si) const {
+        return name < si.name;
+    }
+    stream_info & operator = (const std::string & str) {
+        std::istringstream iss(str);
+        std::vector<std::string> tokens;
+        std::copy(
+            std::istream_iterator<std::string>(iss),
+            std::istream_iterator<std::string>(),
+            std::back_inserter < std::vector<std::string> >(tokens));
+
+        if (tokens.size() < 2) {
+            *env << "invalid format string : " << str.c_str() << "\n";
+            usage();
+        }
+        if (tokens[0].find("proxyStream") == 0) {
+            *env << "\"proxyStream\" is reserved keyword : " << tokens[0].c_str() << "\n";
+            usage();
+        }
+        if (tokens[1].find("rtsp://") != 0) {
+            *env << "invalid rtsp url : " << tokens[1].c_str() << "\n";
+            usage();
+        }
+        name = tokens[0];
+        url = tokens[1];
+        if (tokens.size() >= 3) {
+            username = tokens[2];
+        }
+        if (tokens.size() >= 4) {
+            password = tokens[3];
+        }
+
+        return *this;
+    }
+};
+
+static std::set<stream_info> load_streams_from_file(const char * streams_file_path) {
+    std::set <stream_info> streams;
+    
+    std::ifstream infile(streams_file_path);
+    if ( ! infile.is_open()) {
+        *env << "invalid file : " << streams_file_path << "\n";
+        usage();
+    }
+    std::string line;
+    while (std::getline(infile ,line)) {
+        stream_info si = line;
+        if ( ! streams.insert(si).second){
+            *env << "repeated stream name : " << si.name.c_str() << "\n";
+            usage();
+        }
+    }
+
+    return streams;
 }
 
 int main(int argc, char** argv) {
     // Increase the maximum size of video frames that we can 'proxy' without truncation.
     // (Such frames are unreasonably large; the back-end servers should really not be sending frames this large!)
-    //OutPacketBuffer::maxSize = 300000; // bytes
+    OutPacketBuffer::maxSize = 600000; // bytes
 
     // Begin by setting up our usage environment:
     TaskScheduler* scheduler = BasicTaskScheduler::createNew();
@@ -73,6 +147,9 @@ int main(int argc, char** argv) {
     // Check command-line arguments: optional parameters, then one or more rtsp:// URLs (of streams to be proxied):
     progName = argv[0];
     if (argc < 2) usage();
+
+    const char * streams_file_path = NULL;
+
     while (argc > 1) {
         // Process initial command-line options (beginning with "-"):
         char* const opt = argv[1];
@@ -151,7 +228,13 @@ int main(int argc, char** argv) {
             proxyREGISTERRequests = True;
             break;
         }
-
+        case 'f': {
+            if (argc < 3) usage();
+            streams_file_path = argv[2];
+            argc -= 1;
+            argv += 1;
+            break;
+        }
         default: {
             usage();
             break;
@@ -160,7 +243,7 @@ int main(int argc, char** argv) {
 
         ++argv; --argc;
     }
-    if (argc < 2 && !proxyREGISTERRequests) usage(); // there must be at least one "rtsp://" URL at the end 
+    if ( argc < 2 && !proxyREGISTERRequests && streams_file_path == NULL) usage(); // there must be at least one "rtsp://" URL at the end 
     // Make sure that the remaining arguments appear to be "rtsp://" URLs:
     int i;
     for (i = 1; i < argc; ++i) {
@@ -231,6 +314,27 @@ int main(int argc, char** argv) {
         *env << "RTSP stream, proxying the stream \"" << proxiedStreamURL << "\"\n";
         *env << "\tPlay this stream using the URL: " << proxyStreamURL << "\n";
         delete[] proxyStreamURL;
+
+    }
+
+    //load streams from file
+    if (streams_file_path) {
+        std::set<stream_info> streams = load_streams_from_file(streams_file_path);
+        for (std::set<stream_info>::iterator itr = streams.begin(); itr != streams.end(); ++itr) {
+            char const* proxiedStreamURL = itr->url.c_str();
+            const char* streamName = itr->name.c_str();
+            const char * _username = itr->username.empty() ? username : itr->username.c_str();
+            const char * _password = itr->password.empty() ? password : itr->password.c_str();
+            ServerMediaSession* sms
+                = ProxyServerMediaSession::createNew(*env, rtspServer,
+                    proxiedStreamURL, streamName,
+                    _username, _password, tunnelOverHTTPPortNum, verbosityLevel);
+            rtspServer->addServerMediaSession(sms);
+            char* proxyStreamURL = rtspServer->rtspURL(sms);
+            *env << "RTSP stream, proxying the stream \"" << proxiedStreamURL << "\"\n";
+            *env << "\tPlay this stream using the URL: " << proxyStreamURL << "\n";
+            delete[] proxyStreamURL;
+        }
     }
 
     if (proxyREGISTERRequests) {
