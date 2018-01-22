@@ -110,6 +110,13 @@ struct stream_info {
     }
 };
 
+static std::string trim(const std::string & str) {
+    int left = 0, right = str.length();
+    while (left < right && std::isspace(str[left])) left++;
+    while (right > left && std::isspace(str[right - 1])) right--;
+    return str.substr(left, right);
+}
+
 static std::set<stream_info> load_streams_from_file(const char * streams_file_path) {
     std::set <stream_info> streams;
     
@@ -120,6 +127,10 @@ static std::set<stream_info> load_streams_from_file(const char * streams_file_pa
     }
     std::string line;
     while (std::getline(infile ,line)) {
+        line = trim(line);
+        if (line.empty()) {
+            continue;
+        }
         stream_info si = line;
         if ( ! streams.insert(si).second){
             *env << "repeated stream name : " << si.name.c_str() << "\n";
