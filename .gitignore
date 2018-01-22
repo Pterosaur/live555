@@ -43,4 +43,5 @@ sapWatch
 vobStreamer
 testProgs/test*
 
-
+.vs/
+~*
