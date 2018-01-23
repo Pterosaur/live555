@@ -31,6 +31,7 @@ int verbosityLevel = 0;
 Boolean streamRTPOverTCP = False;
 portNumBits tunnelOverHTTPPortNum = 0;
 portNumBits rtspServerPortNum = 554;
+portNumBits rtspServerHTTPPortNum = 0;
 char* username = NULL;
 char* password = NULL;
 Boolean proxyREGISTERRequests = False;
@@ -52,6 +53,7 @@ void usage() {
         << " [-v|-V]"
         << " [-t|-T <http-port>]"
         << " [-p <rtspServer-port>]"
+        << " [-P <rtspServer-http-port>]"
         << " [-u <username> <password>]"
         << " [-R] [-U <username-for-REGISTER> <password-for-REGISTER>]"
         << " [-f <back-end rtsp pairs file>]"
@@ -215,7 +217,21 @@ int main(int argc, char** argv) {
             usage();
             break;
         }
+        case 'P': {
+            // specify a rtsp server port number 
+            if (argc > 2 && argv[2][0] != '-') {
+                // The next argument is the rtsp server port number:
+                if (sscanf(argv[2], "%hu", &rtspServerHTTPPortNum) == 1
+                    && rtspServerHTTPPortNum > 0) {
+                    ++argv; --argc;
+                    break;
+                }
+            }
 
+            // If we get here, the option was specified incorrectly:
+            usage();
+            break;
+        }
         case 'u': { // specify a username and password (to be used if the 'back end' (i.e., proxied) stream requires authentication)
             if (argc < 4) usage(); // there's no argv[3] (for the "password")
             username = argv[2];
@@ -355,8 +371,9 @@ int main(int argc, char** argv) {
     // Also, attempt to create a HTTP server for RTSP-over-HTTP tunneling.
     // Try first with the default HTTP port (80), and then with the alternative HTTP
     // port numbers (8000 and 8080).
-
-    if (rtspServer->setUpTunnelingOverHTTP(80) || rtspServer->setUpTunnelingOverHTTP(8000) || rtspServer->setUpTunnelingOverHTTP(8080)) {
+    if ((rtspServerHTTPPortNum <= 0 && (rtspServer->setUpTunnelingOverHTTP(80) || rtspServer->setUpTunnelingOverHTTP(8000) || rtspServer->setUpTunnelingOverHTTP(8080))) || 
+        (rtspServerHTTPPortNum > 0 && rtspServer->setUpTunnelingOverHTTP(rtspServerHTTPPortNum))) {
+    
         *env << "\n(We use port " << rtspServer->httpServerPortNum() << " for optional RTSP-over-HTTP tunneling.)\n";
     }
     else {
